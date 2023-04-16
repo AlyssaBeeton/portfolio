@@ -17,7 +17,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Navbar</a>
+          <a class="navbar-brand" href="index.html">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,8 +45,9 @@
 </header>
 
 <main>
-    <h2>Contact Me</h2>
-    <section.container>
+    <h2 class="text-center text-md-start display-2">Contact Me</h2>
+    <section class='container'>
+      <div class="text-center text-md-start">
         <form action="/action_page.php">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname"><br>
@@ -58,16 +59,40 @@
             <input type="text" id="email" name="email"><br>
 
             <label for="msg">Message:</label><br>
-            <input type="text" id="msg" name="msg"><br><br>
+            <input type="text" id="msg" name="msg" class="contactmsg"><br><br>
 
-            <input type="submit" value="Submit">
-          </form>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <picture> 
+        <source media="(min-width:768px)" srcset="contactimg.jpg" alt="white-flowers"> 
+        <source media="(min-width:768px)" srcset="contactimg.jpg" alt="white-flowers">
+      </picture>
+      <!-- <img src="images/contactimg.jpg" alt="white flowers" class="contactimg"> -->
     </section>
 </main>
 
 <footer>
+  <div class="footernav">
+    <i class="fa-solid fa-browser" style="color: #ffffff;"></i>
+
+    <p class="footertext display-sm-none">© All rights reserved | 2023</p>
+
+    <div class="d-flex justify-content-center">
+      <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+    </div>
+
+    <i class="fa-sharp fa-solid fa-circle-arrow-up" style="color: #ffffff;"></i>
+    <a href="#">Back to top</a>
+  </div>
 
 </footer>
+
+<!-- FONTAWESOME JS -->
+<script src="https://kit.fontawesome.com/2cf998c9e7.js" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>  
     

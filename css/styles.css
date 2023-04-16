@@ -8,23 +8,27 @@
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: var(--color-pink);
-    --bs-btn-border-color: var(--color-pink);
+    --bs-btn-bg: var(--color-light-pink);
+    --bs-btn-border-color: var(--color-light-pink);
     --bs-btn-hover-color: white;
-    --bs-btn-hover-bg: var(--color-light-pink);
-    --bs-btn-hover-border-color: var(--color-light-pink);
+    --bs-btn-hover-bg: var(--color-pink);
+    --bs-btn-hover-border-color: var(--color-pink);
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #0a58ca;
-    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-bg: var(--color-pink);
+    --bs-btn-active-border-color: var(--color-pink);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-btn-disabled-bg: #831f2e;
+    --bs-btn-disabled-border-color: #831f2e;
+    font-family: var(--font-carlmarx);
+    margin-bottom: 5%;
+    border-radius: 25%;
 }
 
 h1,h2 {
     font-family: var(--font-hwt-artz);
+    margin-left: 5%;
 }
 
 .ladyimg {
@@ -33,7 +37,6 @@ h1,h2 {
     display:block;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .hero {
@@ -43,16 +46,9 @@ h1,h2 {
     background-position: center;
 }
 
-/* .btn {
-    background-color: #F7A5A5;
-    border: none;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 nav {
     background-color: #FF6D6D;
+    color: white;
 }
 
 h1 {
@@ -79,5 +75,52 @@ p {
     margin-left: 5%;
     text-align: center;
     font-family: var(--font-carlmarx);
+}
+
+form {
+    font-family: var(--font-carlmarx);
+    margin-left: 5%;
+    
+}
+
+footer {
+    background-color: #FF6D6D;
+}
+
+i {
+    padding: 1%;
+}
+
+.footertext {
+    color: white;
+    display: none;
+}
+
+.contactimg {
+    display: none;
+}
+
+.contactmsg {
+    padding: 10%;
+}
+
+a {
+
+}
+
+.footernav {
+    
+}
+
+@media screen and (min-width: 768px){
+
+    .footertext {
+        display: inline-block;
+    }
+
+    .contactimg {
+        display:inline;
+
+    }
 }
 
