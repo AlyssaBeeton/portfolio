@@ -24,6 +24,7 @@
     font-family: var(--font-carlmarx);
     margin-bottom: 5%;
     border-radius: 25%;
+    margin-left: 44%;
 }
 
 h1,h2 {
@@ -75,6 +76,7 @@ p {
     margin-left: 5%;
     text-align: center;
     font-family: var(--font-carlmarx);
+    font-size: 1.5rem;
 }
 
 form {
@@ -105,11 +107,7 @@ i {
 }
 
 a {
-
-}
-
-.footernav {
-    
+    margin-inline-end: auto;
 }
 
 @media screen and (min-width: 768px){
@@ -119,8 +117,12 @@ a {
     }
 
     .contactimg {
-        display:inline;
+        display: inline;
+        width: 10%;
+    }
 
+    .btn-primary {
+        margin-left: 5%;
     }
 }
 
